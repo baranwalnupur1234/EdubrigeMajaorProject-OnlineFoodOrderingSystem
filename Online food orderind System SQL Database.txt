@@ -1,0 +1,19 @@
+create database Online_Food_Ordering_System;
+
+use  Online_Food_Ordering_System;
+
+create table FoodItems(
+food_id int (24)  NOT NULL AUTO_INCREMENT,
+food_name varchar(220),
+food_type varchar(220),
+price varchar(220),
+primary key(food_id ));
+
+desc FoodItems;
+
+select * from FoodItems;
+
+create table User(userid varchar(20),password varchar(20),
+fname varchar(20),lname varchar(20),email varchar(20));
+
+select * from User;	
